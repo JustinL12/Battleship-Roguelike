@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &588147393106826311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4726760498634897717}
+  - component: {fileID: 1094720706456600931}
+  m_Layer: 0
+  m_Name: Ship3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4726760498634897717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588147393106826311}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8390229689849436323}
+  - {fileID: 5559734631615902341}
+  - {fileID: 827912242256227924}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1094720706456600931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588147393106826311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a77ecc2725d1e4282979d4f6116f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleshipRoguelike.Ships.ShipController
+  segments:
+  - {fileID: 3428251284441121368}
+  - {fileID: 2255166542967053284}
+  - {fileID: 5809319019469845679}
+  cam: {fileID: 0}
+--- !u!1001 &2077404717483368165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4726760498634897717}
+    m_Modifications:
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932353376636642380, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_Name
+      value: ShipEnd_Back
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+--- !u!4 &827912242256227924 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+  m_PrefabInstance: {fileID: 2077404717483368165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5809319019469845679 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5497404533639916106, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+  m_PrefabInstance: {fileID: 2077404717483368165}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b67a30054abd141a6636ffc1bfdacd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleshipRoguelike.Ships.ShipEnd
+--- !u!1001 &7194830442222675986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4726760498634897717}
+    m_Modifications:
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932353376636642380, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+      propertyPath: m_Name
+      value: ShipEnd_Front
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+--- !u!114 &3428251284441121368 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5497404533639916106, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+  m_PrefabInstance: {fileID: 7194830442222675986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b67a30054abd141a6636ffc1bfdacd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleshipRoguelike.Ships.ShipEnd
+--- !u!4 &8390229689849436323 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1704956991584088241, guid: 39a0e20555dd1cb4eada9dd8ab33b7a8, type: 3}
+  m_PrefabInstance: {fileID: 7194830442222675986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8856170997737766411
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4726760498634897717}
+    m_Modifications:
+    - target: {fileID: 2182099207460985750, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_Name
+      value: ShipBody_Mid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+--- !u!114 &2255166542967053284 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7326378698542884335, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+  m_PrefabInstance: {fileID: 8856170997737766411}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de70a757082dcf439af1747ffde4e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleshipRoguelike.Ships.ShipBody
+--- !u!4 &5559734631615902341 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4021527178291285134, guid: 1f91ffc2b8dd63444a12c3487ced3b10, type: 3}
+  m_PrefabInstance: {fileID: 8856170997737766411}
+  m_PrefabAsset: {fileID: 0}
